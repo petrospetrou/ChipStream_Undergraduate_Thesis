@@ -51,8 +51,8 @@ For full details, refer to the **thesis document** (`Undergraduate Thesis - Petr
 
 ### 1️⃣ Clone the Repository
 ```bash
- git clone https://github.com/yourusername/undergraduate-thesis.git
- cd undergraduate-thesis
+ git clone https://github.com/petrospetrou/ChipStream_Undergraduate_Thesis.git
+ cd ChipStream_Undergraduate_Thesis
 ```
 
 ### 2️⃣ GUI Application Setup
@@ -107,9 +107,6 @@ For further details on semiconductor technologies, synchronous and asynchronous 
 
 ## 📜 License
 This repository is released under a **Custom Academic License**. Usage, modification, and distribution are restricted based on the original academic institution’s policies. Any reuse or adaptation of this work must be approved by the author and comply with academic integrity guidelines.
-
-For specific permissions, please contact:
-📧 **Email:** [your.email@domain.com](mailto:your.email@domain.com)
 
 ---
 
