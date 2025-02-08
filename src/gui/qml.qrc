@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>TopBar.qml</file>
+        <file>data/Properties.qml</file>
+        <file>data/qmldir</file>
+        <file>InputParam.qml</file>
+        <file>Terminal.qml</file>
+        <file>LogActivity.qml</file>
+        <file>ConfigurationSettings.qml</file>
+    </qresource>
+</RCC>
