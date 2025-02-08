@@ -41,7 +41,7 @@ For full details, refer to the **thesis document** (`Undergraduate Thesis - Petr
 |-----------------|-------------|
 | `Undergraduate Thesis - Petros Petrou.pdf` | Full thesis document detailing the research and implementation. |
 | `Demonstration/` | Video demonstration of the implemented GUI and demonstration of the whole system. |
-| `src/` | Source code for the GUI and firmware for the hardware components. |
+| `src/` | Source code for the GUI and firmware for the hardware components. The `src` directory is divided into two subdomains: one for the GUI and one for the implementation of the 4-phase dual-rail protocol on the ESP32-C6-DevKitM-1. |
 | `docs/` | Additional documentation, reports, and reference materials. |
 | `README.md` | This document providing an overview of the project. |
 
