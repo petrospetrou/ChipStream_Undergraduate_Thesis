@@ -40,7 +40,7 @@ For full details, refer to the **thesis document** (`Undergraduate Thesis - Petr
 | File / Directory | Description |
 |-----------------|-------------|
 | `Undergraduate Thesis - Petros Petrou.pdf` | Full thesis document detailing the research and implementation. |
-| `Screen Recording 2024-05-26.mov` | Video demonstration of the implemented GUI. |
+| `Demonstration/` | Video demonstration of the implemented GUI and demonstration of the whole system. |
 | `src/` | Source code for the GUI and firmware for the hardware components. |
 | `docs/` | Additional documentation, reports, and reference materials. |
 | `README.md` | This document providing an overview of the project. |
