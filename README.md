@@ -1,5 +1,4 @@
 # ChipStream_Undergraduate_Thesis
-A comprehensive repository for my undergraduate thesis, exploring the implementation of a 4-phase dual-rail asynchronous communication protocol to enhance cross-domain interoperability between synchronous and asynchronous circuits. Includes the thesis document, GUI demonstration, and source code for hardware-software integration.
 
 ## Author: Petros Petrou  
 **Supervised by:** Professor Julius Georgiou  
@@ -9,23 +8,23 @@ A comprehensive repository for my undergraduate thesis, exploring the implementa
 
 ---
 
-## 📜 Overview
+## Overview
 This repository contains the source files, documentation, and supplementary materials for my undergraduate thesis: **"Bridging Cross-Domain Communication in Asynchronous and Synchronous Digital Systems."** The thesis explores the challenges and methodologies of enabling reliable communication between synchronous and asynchronous digital circuits to improve interoperability and efficiency in semiconductor technology.
 
-A **Graphical User Interface (GUI)** was developed as part of this research, and a **video demonstration** of the system is included.
+A **Graphical User Interface (GUI)** was developed as part of this study, and a **video demonstration** of the system is included.
 
 The novelty of this research is the implementation of the **4-phase dual-rail asynchronous communication protocol**, which ensures efficient and reliable data transfer between synchronous and asynchronous circuits.
 
 ---
 
-## 📑 Thesis Abstract
+## Thesis Abstract
 This thesis investigates the communication dynamics between synchronous and asynchronous digital circuits to enhance their interoperability and efficiency. Through an extensive study of semiconductor evolution, comparative analysis of synchronous vs. asynchronous systems, and a hands-on implementation, this research aims to minimize latency, maximize throughput, and ensure robust data integrity. The final system demonstrates effective cross-domain communication through strategic hardware and software integration.
 
 For full details, refer to the **thesis document** (`Undergraduate Thesis - Petros Petrou.pdf`).
 
 ---
 
-## 📌 Features
+## Features
 - **Comprehensive Theoretical Analysis:** Examines semiconductor technology evolution, system design, and implementation.
 - **Hardware Integration:** Implements a communication bridge using **Microcontrollers (MCUs)** or **FPGAs**.
 - **Software Development:** Includes a user-friendly GUI for data exchange.
@@ -35,18 +34,17 @@ For full details, refer to the **thesis document** (`Undergraduate Thesis - Petr
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 
 | File / Directory | Description |
 |-----------------|-------------|
 | `Undergraduate Thesis - Petros Petrou.pdf` | Full thesis document detailing the research and implementation. |
 | `Demonstration/` | Video demonstration of the implemented GUI and demonstration of the whole system. |
 | `src/` | Source code for the GUI and firmware for the hardware components. The `src` directory is divided into two subdomains: one for the GUI and one for the implementation of the 4-phase dual-rail protocol on the ESP32-C6-DevKitM-1. |
-| `README.md` | This document providing an overview of the project. |
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -74,7 +72,7 @@ For full details, refer to the **thesis document** (`Undergraduate Thesis - Petr
 
 ---
 
-## 🚀 Usage
+## Usage
 1. **Launch the GUI Application** through the Qt Creator build.
 2. **Input Data** to be sent to the asynchronous chip.
 3. **Initiate Communication** through the GUI.
@@ -83,7 +81,7 @@ For full details, refer to the **thesis document** (`Undergraduate Thesis - Petr
 
 ---
 
-## 🛠️ Known Issues and Troubleshooting
+## Known Issues and Troubleshooting
 - **Improper Default Initialization of Flash Size:**
   - Issue: During the setup phase of the ESP32-C6-DevKitM-1, flash size was improperly initialized, causing startup errors.
   - Resolution: Flash size configuration was corrected in the initialization script. Ensure your environment settings match the hardware specifications.
@@ -96,17 +94,16 @@ For more detailed troubleshooting information, please refer to the thesis docume
 
 ---
 
-## 📖 References
-For further details on semiconductor technologies, synchronous and asynchronous communication, refer to:
+## References
+For further details, refer to:
 - **Main Thesis Document:** `Undergraduate Thesis - Petros Petrou.pdf`
 - **Relevant Research Papers:** Listed in the thesis bibliography.
-- **Technical References:** Available in `docs/references.txt`.
 
 ---
 
-## 📜 License
+## License
 This repository is released under a **Custom Academic License**. Usage, modification, and distribution are restricted based on the original academic institution’s policies. Any reuse or adaptation of this work must be approved by the author and comply with academic integrity guidelines.
 
 ---
 
-🎉 **Thank you for checking out my thesis repository!** I hope this work contributes to the understanding and advancement of cross-domain digital communication systems. 🚀
+**Thank you for checking out my thesis repository!** I hope this work contributes to the understanding and advancement of cross-domain digital communication systems.
