@@ -1,5 +1,3 @@
----
-
 # ChipStream
 
 This section demonstrates the Qt application that integrates Qt Widgets and Qt Quick for a comprehensive user interface experience. It includes four main QML pages: `Terminal.qml`, `InputParam.qml`, `LogActivity.qml`, and `TopBar.qml`, with the `TopBar` incorporating title, close, and minimize buttons.
