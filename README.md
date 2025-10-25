@@ -39,7 +39,7 @@ For full details, refer to the **thesis document** (`Undergraduate Thesis - Petr
 The proposed system enables reliable cross-domain communication between synchronous and asynchronous digital circuits by implementing a 4-phase dual-rail protocol through a microcontroller-based bridge. The architecture consists of a Graphical User Interface (GUI) for data input/output, a microcontroller (ESP32-C6-DevKitM-1) responsible for protocol translation, and an asynchronous target device for hexadecimal processing. The GUI interfaces with the microcontroller via UART, sending hexadecimal values while receiving binary responses from the asynchronous device. This architecture ensures data integrity, efficient bidirectional communication, and protocol compatibility between disparate timing domains. The following figure illustrates the overall system flow:
 
 <p align="center">
-  <img src="images/proposed_system.png" alt="Proposed System Architecture" width="650">
+  <img src="Demonstration/proposed_system.png" alt="Proposed System Architecture" width="650">
 </p>
 
 ---
