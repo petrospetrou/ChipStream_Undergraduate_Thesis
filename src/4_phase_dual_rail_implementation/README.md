@@ -2,8 +2,6 @@
 
 This project implements a **4-phase dual-rail asynchronous communication protocol** on an ESP32-C6 microcontroller. It demonstrates handshake-driven, delay-insensitive data transfer using dual signaling rails per bit and ready/acknowledge control logic.
 
-The implementation is intended for research, demonstration, or integration into mixed synchronous/asynchronous digital communication systems.
-
 ---
 
 ## Built With
@@ -161,21 +159,3 @@ No ACK transitions | Device idle | Ensure asynchronous device responds |
 Use `idf.py monitor` logs for state feedback.
 
 ---
-
-## Future Improvements
-
-- Multi-bit encoded payloads
-- Retry/error detection
-- Visualization via external GUI
-- Queue-based handshake buffering
-
----
-
-## License
-
-This firmware is provided for academic and research purposes only.  
-Consult your institution’s policies before reuse or modification.
-
----
-
-**Enjoy exploring the asynchronous world!**
